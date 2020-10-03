@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Message } from '../../definitions/Component'
-import * as Linkify from 'linkifyjs/react'
+import Linkify from 'linkifyjs/react'
 
 interface Props {
   log: Message

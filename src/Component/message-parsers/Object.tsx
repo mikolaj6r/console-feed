@@ -3,7 +3,7 @@ import { Theme } from '../../definitions/Component'
 import { withTheme } from 'emotion-theming'
 import { Root } from '../react-inspector/elements'
 
-import * as Linkify from 'linkifyjs/react'
+import Linkify from 'linkifyjs/react'
 import { Message } from '../../definitions/Component'
 import Inspector from '../react-inspector'
 
@@ -28,7 +28,8 @@ class ObjectTree extends React.PureComponent<Props, any> {
               <span
                 style={{
                   color: theme.styles.OBJECT_VALUE_STRING_COLOR
-                }}>
+                }}
+              >
                 {message}
               </span>
               <span>" </span>
